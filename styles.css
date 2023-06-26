@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+/* Apply basic styles to the form container */
+form {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+/* Style the form labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style the form input fields */
+form input[type="text"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* Style the form submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8d81cf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the form submit button */
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
